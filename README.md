@@ -127,3 +127,21 @@ Veritcal means adding resources to the same resource
 2) Select the instance ----> Actions ----> Instance Type ----> Change the isntance the type
 3) Now start the isntance.
 4) In none of the clouds, vertical scaling is not possible without downtime.
+
+
+### Terraform commands
+```
+    $ terraform init                    ( This will intialize the plugins needed for the code ) 
+    $ terraform plan                    ( This will show what it's going to create/update/delete the infra based on the code vs what we have on the cloud )
+    $ terraform apply -auto-approve     ( This is going to apply the changes shown on the plan, if applied immediately )
+``````
+
+OR
+
+Saving the terraform plan locally and applying it, this guarantees the same apply of the plan
+
+```
+    $ terraform init 
+    $ terraform plan -out=plan.out 
+    $ terraform apply plan.out 
+```
