@@ -35,3 +35,12 @@ Terraform version : This is the tool version Provider version : This is the soft
 ### What plan does ?
 
 Plan is going to show what code is going to do wrt what is already there in the AWS Account, based on this you're going to either apply or deny or tune it as per your need.
+
+### AWS IAM ( Identity & Access Management )
+````
+1) This service in AWS helps humans to authenticate to aws 
+2) helps machines / bots authenticate to AWS 
+3) This defines authorization using something called ROLES
+````
+URL: https://120569617568.signin.aws.amazon.com/console
+
