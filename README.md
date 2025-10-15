@@ -26,5 +26,12 @@ Terraform version : This is the tool version Provider version : This is the soft
     -   : deletes resource
     -/+ : delete and recreate the resources
     ~   : something is changing in the existing resources 
-    
+
 ``````
+### What terraform init is going to do
+
+1) Terraform is going download all the needed plugins that are needed in the code
+
+### What plan does ?
+
+Plan is going to show what code is going to do wrt what is already there in the AWS Account, based on this you're going to either apply or deny or tune it as per your need.
